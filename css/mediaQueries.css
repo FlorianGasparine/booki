@@ -1,0 +1,456 @@
+/* Activity Marseille*/
+@media all and (max-width : 1033px){
+    .mediaQuerieTitleCalanques {
+    margin-top: 4px; 
+}
+}
+
+@media all and (max-width: 992px){
+
+    /* First section */
+    #firstSection {
+        margin-left: 20px;
+    }
+
+
+
+    /* Filter */
+    .container__filter{
+        flex-wrap: wrap;
+    }
+     
+    .container__allButtonFilter{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+
+    .filter__button{
+        margin-bottom: 10px;
+    }
+
+
+
+    /* Search Input */
+    .container__search--input {
+        text-align: center;
+    }
+    
+    
+
+    /* Section Accomodation */
+    .container__marseille{
+        order: 2;
+        margin: 22px;
+    }
+
+    .container__mostPopular{
+        order: 1;
+    }
+
+    .container__accomodation {
+        flex-flow: column wrap;
+    }
+
+
+
+    /* Container Most Popular*/
+    .container__mostPopular{
+        width: auto;
+        margin: 22px;
+    }
+            
+    .container__mostPopularCard{
+        width: auto;
+    }
+
+    .stars__mostPopular{
+        margin-top: 34%;
+        font-size: 14px;
+    }
+
+    .stars__mostPopularCoeurDeLEau{
+        margin-top: 23%;
+    }
+
+
+                
+    /* Activity Marseille */
+    .container__marseilleActivity {
+        width: 95%;
+        height: auto;
+        padding-left: 25px;
+    }
+
+
+
+    /* Footer */
+    .container__footerLink {
+        width: 96%;
+    }                   
+}
+
+
+
+/* Activity Marseille */
+@media all and (max-width : 963px){
+    .titleCardNotreDame {
+        margin-top: 5px; 
+    }
+}
+
+@media all and (max-width : 787px){
+    .titleCardPomegues {
+        margin-top: 5px;
+    }
+} 
+
+
+
+@media all and (max-width: 768px){
+    
+    /* Header */
+    nav {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: 135px;
+        border-bottom: 3px solid #F2F2F2;  
+    }
+
+    #logoBooki { 
+        position: absolute;
+        top: 11px;
+        left: 43%;
+    }
+
+    #logoBookiPosition {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 21px;
+        margin: 0 auto;
+    }
+
+    #header__nav--link {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 82px;
+        padding: 0 0 0 0;
+    }
+    .nav__link{
+        width: 100%;
+        display: block;
+        padding: 25px;
+    }
+
+    #nav__linkFirst {
+        width: 50%;
+        text-align: center;
+    }
+
+    #nav__linkSecond{
+        width: 50%;
+        text-align: center;
+    }
+       
+    .nav__link:hover{
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    #nav__linkFirst > a:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+       }
+
+    #nav__linkSecond > a:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+       
+    .container__search--titles{
+        margin-left: 20px;
+    }
+
+    .container__search--input {
+        text-align: start;
+    }
+
+    #input__search {
+        width: 250px;
+    }
+
+    #button__search{
+        display: none;
+    }
+
+    .fa-magnifying-glass::before,
+    .fa-search::before { 
+        display: initial;
+        position: relative;
+        right: 15px;
+        bottom: 1px;
+        padding: 18px;
+        border-radius: 18px;
+        cursor: pointer;
+        background-color: #0065FC;
+        color: white;
+    }
+   
+
+       
+    /* First Section */
+
+    #firstSection{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    #containerFilter__titleFilter--bold{
+        font-weight: 900;
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .container__filter{
+        margin: 0;
+    }
+
+    .container__search--informations{
+        margin-left: 20px;
+    }
+
+  
+
+    /* Container Most Popular */
+    .container__mostPopular {
+        margin: 0px;
+        border-radius: 0px;
+        padding-left: 22px;
+        padding-right: 22px;
+           
+    }
+
+    .stars__mostPopular{
+        font-size: 13px;
+    }
+
+
+
+    /* Container Marseille */
+    #containerMarseille__title--size {
+        margin-left: 0px;
+    }
+
+    #container__marseille--showMore {
+        margin-left: 0px;
+    }
+
+    .container__marseille {
+        margin: 0px;
+        padding: 22px;
+        background-color: white;
+    }
+
+    .container__accomodationCard {  
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+
+
+    /* Container Activity Marseille */
+    #ancreActivityToActivityMarseille {
+        padding-left: 21px;
+    }
+       
+    .container__marseilleActivity--allCard {
+        flex-direction: column;
+    } 
+
+    .cardActivityMarseille {
+        width: auto;
+        max-height: 220px;
+        margin-bottom: 25px;
+    }
+
+    .titleXlMarseilleActivity {
+        margin-bottom: 25px;
+        margin-top: 16px;
+    }
+
+    .imageXLMarseilleActivity {
+        height: 76%;
+    }
+
+    .smallCardActivityMarseille{
+        width: auto;
+    }
+    
+    .cardPomegues{
+        height: 220px;
+        margin-bottom: 25px;
+    
+    }
+
+    .titleCardPomegues {
+        margin-top: 16px;
+    
+    }
+
+    .imageCardPomegues {
+        height: 76%;
+    }
+
+    .cardFrioul{
+        height: 220px;
+        margin-bottom: 25px;
+        margin-top:0px
+    }
+
+    .titleCardFrioul{
+        margin-top: 16px;
+    }
+
+    .imageCardFrioul {
+        height: 76%;
+    }
+
+    .cardCalanques{
+        margin-top: -29px;
+    }
+
+    .mediaQuerieTitleCalanques{
+        margin-top: 16px;
+    }
+
+    .cardNotreDame{
+        height: 220px;
+        margin-bottom: 25px;
+    }
+
+    .imageCardNotreDame {
+        height: 76%;
+    }
+
+    .titleCardNotreDame {
+        margin-top: 16px;
+    }   
+
+    .cardlongchamp{
+        height: 220px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    .imageCardlongchamp {
+        height: 76%;
+    }
+
+    .titleCardlongchamp {
+        margin-top: 16px;
+    }
+
+    div.cardActivityMarseille:nth-child(1) {
+        margin-right: 11px;
+    }
+
+    div.smallCardActivityMarseille:nth-child(2) {
+        margin-right: 11px;
+    }
+
+    div.cardActivityMarseille:nth-child(3) {
+        margin-right: 11px;
+    }
+
+    div.smallCardActivityMarseille:nth-child(4) {
+        margin-right: 12px;
+    }
+
+
+
+    /* footer */
+    .container__footerLink {
+        flex-direction: column;
+        margin-left: 37px;
+    }
+
+    body > footer:nth-child(3) {
+        margin-top: 0px;
+    }  
+}
+
+
+
+ /*********Other MediaQueries *********/
+/* Container Search */
+@media all and (max-width : 411px){
+    #input__search {
+        width: 205px;
+    }
+}
+
+
+
+/* Container MostPopular */
+@media all and (max-width : 558px){
+    .stars__mostPopularCoeurDeLEau {
+        margin-top: 40px; 
+    }
+}
+
+@media all and (max-width : 332px) {
+    .stars__mostPopularCoeurDeLEau {
+        margin-top: -8px; 
+    }
+}
+
+@media all and (max-width : 455px){
+    .stars__mostPopular__allWhite {
+        margin-top: 59px; 
+}
+}
+
+@media all and (max-width : 419px) {
+    .stars__mostPopular__allWhite {
+        margin-top: 41px; 
+}
+}
+
+@media all and (max-width : 336px) {
+    .stars__mostPopular__allWhite {
+        margin-top: 25px; 
+}
+}
+    
+@media all and (max-width : 413px){
+    .stars__mostPopular--morningSun {
+        margin-top: 40px; 
+    }
+}
+
+@media all and (max-width : 345px){
+    .stars__mostPopular--morningSun {
+        margin-top: 24px; 
+    }
+}
+
+
+
+/* Container Search */
+@media all and (max-width : 365px){
+    #input__search {
+        width: 160px;
+    }
+} 
+
+
+
+/* Activity Marseille */
+@media (max-width: 500px) {
+    .container__marseilleActivity {
+        width: 92%;
+    }
+} 
