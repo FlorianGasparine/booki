@@ -6,4 +6,4 @@ Projet 2
 
 Intégration d'une maquette (Booki).
 
-https://floriangasparine.github.io/booki.github.io/
+https://floriangasparine.github.io/booki/
