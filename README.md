@@ -1,4 +1,4 @@
-# projet-Booki.github.io
+# booki.github.io
 
 {Parcours Developpeur Web} OpenClassrooms.
 
